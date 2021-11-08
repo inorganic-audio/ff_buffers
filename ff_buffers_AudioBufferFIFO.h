@@ -240,7 +240,7 @@ public:
         reset();
     }
 
-private:
+protected:
     /*< The actual audio buffer */
     juce::AudioBuffer<FloatType>    buffer;
 };
